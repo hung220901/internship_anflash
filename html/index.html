@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+</head>
+<body>
+
+<div class="container">
+
+<!-- Contact bar   -->
+
+    <div class="contact-bar">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="navbarcontact-item">
+                    <span> elevator@tdthongnhat.com </span>
+                    <span> Tòa nhà Rosana, 60 Nguyễn Đình Chiểu, P.Đa Kao, Q1 ,Tp. HCM </span>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="navbarcontact-item">
+                    <span> Hotline: 0903232 417 </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!--Navbar heading  -->
+
+
+
+    <div class="navbar-heading">
+        <div class="navbar-container">
+            
+                <div class="nav-list">
+                    <div class="row">
+                        <div class="col-auto">
+                            <a href="" class="navbar-brand">
+                                <img src="../images/logo.svg" alt="" width="100px" height="100px">
+                            </a>
+                            
+                        </div>
+                
+                        <div class="nav-pc">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="nav-item">
+                                        <a href="#" id="active-page"> Trang chủ</a> 
+                                    </div>
+                                </div>    
+                                <div class="col-sm">
+                                    <div class="nav-item">
+                                        <a href="#"> Giới thiệu</a> 
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="nav-item">
+                                        <a href="#"> Sản phẩm</a> 
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="nav-item">
+                                        <a href="#"> Dịch vụ</a> 
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="nav-item">
+                                        <a href="#">  Dự án</a> 
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="nav-item">
+                                        <a href="#"> Thi công</a> 
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="nav-item">
+                                        <a href="#"> Tin tức</a> 
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="nav-item">
+                                        <a href="#" > Bảng báo giá </a> 
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="nav-item">
+                                        <a href="#"> Liên hệ</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="ml-auto align-self-center">
+                            
+                            <label class="nav-bar-btn align-self-start" for="nav-mobile-input">    
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                            </label>
+                            <input type="checkbox" class="nav-input" id="nav-mobile-input" hidden="true" >
+                            <label for="nav-mobile-input" class="navbar-overlay">
+                            
+                            </label>
+
+
+                            <div class="nav-mobile">
+                                <label for="nav-mobile-input" class="nav-mobile-close">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                                </label>
+                                <div class="nav-mobile-list">
+                                    <div class="col-sm">
+                                        <div class="nav-item-mobile">
+                                            <a href="#"> Trang chủ</a> 
+                                        </div>
+                                    </div>    
+                                    <div class="col-sm">
+                                        <div class="nav-item-mobile">
+                                            <a href="#"> Giới thiệu</a> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="nav-item-mobile">
+                                            <a href="#"> Sản phẩm</a> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="nav-item-mobile">
+                                            <a href="#"> Dịch vụ</a> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="nav-item-mobile">
+                                            <a href="#">  Dự án</a> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="nav-item-mobile">
+                                            <a href="#"> Thi công</a> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="nav-item-mobile">
+                                            <a href="#"> Tin tức</a> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="nav-item-mobile">
+                                            <a href="#" > Bảng báo giá </a> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="nav-item-mobile">
+                                            <a href="#"> Liên hệ</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+</div>
+
+<!--Banner Slide -->
+    <div class="banner">
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+            </ol>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="block-opacity">
+                            <strong><h3 style="text-align:left;">AN TOÀN - SANG TRỌNG - THIẾT KẾ LINH HOẠT</h3>
+                            <p style="text-align:left;">
+                                Thiết bị nhập khẩu 100% <br>
+                                Đạt tiêu chuẩn an toàn chất lượng <br>
+                                Thiết kế linh hoạt nhiều diện tích đa dạng phong cách
+                            </p></strong>
+                            
+                        </div>
+                    </div>
+                    <img src="../images/banner-gioithieu.jpg"  >
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="block-opacity">
+                            <strong><h3 style="text-align:left">CÔNG TY TNHH THIẾT BỊ TỰ ĐỘNG THỐNG NHẤT</h3>
+                            <p style="text-align:left;">
+                                Công ty TNHH thiết bị tự động thống nhất chuyên cung cấp, lắp đặt, bảo trì các loại thang máy nhập khẩu nguyên<br>
+                                chiếc, thang máy liên doanh sản xuất cabin trong nước với thiết bị và linh kiện nhập khẩu của các hãng như : <br>
+                                MITSUBISI, FUJI, HITACHI, TOSHIBA-NHẬT BẢN. <br>
+                                MONTANARI,SICOR-ITALIA
+                            </p></strong>
+                            
+                        </div>
+                    </div>
+                    <img src="../images/img-slider-3.jpg"   >
+                </div>
+
+            
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+<div class="container">
+
+
+<!-- Product slide -->
+
+    <div class="image-slider">
+        <div class="image-item">
+            <div class="image">
+                <img src="../images/25184781130_0b45c13441_k.jpg" alt="">
+            </div>
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="../images/thang-gia-dinh-2.jpg" alt="">
+            </div>
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="../images/thang-tai-hang-1.jpg" alt="">
+            </div>
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="../images/thang-benh-vien-1.jpeg" alt="">
+            </div>
+        </div>
+        <div class="image-item">
+            <div class="image">
+                <img src="../images/thang-thuc-pham3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+
+
+
+
+
+
+    <div class="about row">
+        <div class="col-md-6">
+            <strong><h3 class="heading-1"> <strong>GIỚI THIỆU</strong> </h3>
+
+
+            <p>
+            <br><br>
+            <h5 class="heading-2">CÔNG TY TNHH THIẾT BỊ TỰ ĐỘNG THỐNG NHẤT</h5></strong>
+            Công ty TNHH THIẾT BỊ TỰ ĐỘNG THỐNG NHẤT chuyên cung cấp, lắp đặt, bảo trì các loại thang máy  nhập khẩu nguyên chiếc, thang máy  liên doanh sản xuất cabin trong nước với thiết bị và linh kiện nhập khẩu của các hãng  như: <br> 
+                <br>
+                MITSUBISHI,FUJI, HITACHI, TOSHIBA - NHẬT BẢN.  <br>
+                <br>
+                MONTANARI, SICOR - ITALIA <br>
+                <br>
+                Mục tiêu của chúng tôi là đáp ứng một cách đầy đủ nhất những nhu cầu của khách hàng bằng cách cung cấp các thiết bị thang máy với tính năng kỹ thuật ưu việt, an toàn và kinh tế. Bảo đảm tính bền vững của thiết bị so với tuổi thọ của công trình thông qua dịch vụ bảo trì tin cậy với lượng cuộc gọi bảo trì ít nhất. 
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="images-intro-border">
+                <img class="images-intro" src="../images/introduction_image.jpg"  width="500px" height="300px">
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn">Xem thêm  <i class="fas fa-long-arrow-alt-right"></i></button>
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="service row container-fluid">
+    <div class="col-md-6">
+        <strong><h3 class="heading-1"> <strong>DỊCH VỤ</strong> </h3>
+        <br><br>
+
+
+        <p>
+        <h5 class="heading-2">Cách tốt nhất để thang máy của Quý khách hàng hoạt động 
+             an toàn và hiệu quả là phải được bảo trì, bảo dưỡng định kỳ 
+              một cách liên tục.</h5></strong>
+        Công ty TNHH THIẾT BỊ TỰ ĐỘNG THỐNG NHẤT chuyên cung cấp, lắp đặt, bảo trì các loại thang máy  nhập khẩu nguyên chiếc, thang máy  liên doanh sản xuất cabin trong nước với thiết bị và linh kiện nhập khẩu của các hãng  như: <br> 
+            <br>
+            MITSUBISHI,FUJI, HITACHI, TOSHIBA - NHẬT BẢN.  <br>
+            <br>
+            MONTANARI, SICOR - ITALIA <br>
+            <br>
+            Mục tiêu của chúng tôi là đáp ứng một cách đầy đủ nhất những nhu cầu của khách hàng bằng cách cung cấp các thiết bị thang máy với tính năng kỹ thuật ưu việt, an toàn và kinh tế. Bảo đảm tính bền vững của thiết bị so với tuổi thọ của công trình thông qua dịch vụ bảo trì tin cậy với lượng cuộc gọi bảo trì ít nhất. 
+        </p>
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-3 right_item">
+                <img class="img-service" src="../images/maintenance_service.png" alt=""/>
+                <div class="right-item-text">
+                    Dịch vụ bảo trì
+                </div>
+                <button type="button" class="button-arrow-service"> <i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="col-md-3 right_item">
+                    <img class="img-service" src="../images/clean_service.png" alt="">
+                   <div class="right-item-text">
+                       Dịch vụ vệ sinh thang máy
+                   </div>
+                   <button type="button" class="button-arrow-service"> <i class="fas fa-chevron-right"></i></button>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-3 right_item">
+                    <img class="img-service" src="../images/upgrade_service.png" alt="">
+
+                   <div class="right-item-text">
+                       Dịch vụ nâng cấp thang máy
+                   </div>
+
+                   <button type="button" class="button-arrow-service"> <i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="col-md-3 right_item">
+                <img class="img-service" src="../images/repair_service.png" alt="">
+                   <div class="right-item-text">
+                       Dịch vụ sửa chữa thang máy
+                   </div>
+
+                   <button type="button" class="button-arrow-service"> <i class="fas fa-chevron-right"></i></button>
+
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn">Xem thêm  <i class="fas fa-long-arrow-alt-right"></i></button>
+
+
+    </div>
+
+<div class="status">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 status-item">
+                <div class="circle-status">
+                    30+
+                </div>
+                <div class="status-name">
+                    Mẫu đang thực hiện
+                </div>
+            </div>
+            <div class="col-sm-3 status-item">
+                <div class="circle-status">
+                    250+
+                </div>
+                <div class="status-name">
+                    Dự án đã thực hiện
+                </div>
+            </div>
+            <div class="col-sm-3 status-item">
+                <div class="circle-status">
+                    300+ 
+                </div>
+                <div class="status-name">
+                    KHÁCH HÀNG
+                </div>
+            </div>
+            <div class="col-sm-3 status-item">
+                <div class="circle-status">
+                        12+ 
+                </div>
+                <div class="status-name">
+                    NĂM KINH NGHIỆM
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+<div class="container">
+    <div class="selling-points">
+        <div class="why-selling-points">
+            <div class="heading-why">
+                <strong> VÌ SAO LỰA CHỌN CHÚNG TÔI? <br>
+                    THANG MÁY THƯƠNG HIỆU <strong class="heading-1">TNE</strong> 
+                </strong>
+            </div>
+            <div class="subtitle">
+                <p>
+                    Thang máy TNE tự tin là sự lựa chọn số 1 cho Quý khách hàng khi có nhu cầu về thiết kế, tư vấn, thi công thang máy
+                    gia đình. Mỗi bước trong một dự án, chúng tôi đều có những thế mạnh riêng, khác biệt so với các công ty cùng lĩnh
+                    vực đảm bảo sẽ làm quý khách hàng hài lòng…
+                </p>
+            </div>
+        </div>
+        <div class="selling-points-tags">
+            <div class="col-sm-4 selling-points-tag">
+                <div class="tag-icon-left">
+                    <img class="tag-icon" src="../images/1(1).png" alt="">
+                </div>
+                <div class="tag-right">                
+                    <div class="tag-title">
+                    Tư vấn chuyên nghiệp
+                </div>
+                <div class="tag-content">
+                    Đội ngũ tư vấn được đào tạo bài bản, chuyên nghiệp mang đến cho khách hàng những thiết kế,
+                     bản vẽ hoàn hảo trước khi bắt tay vào thi công..
+                </div>
+            </div>
+
+            </div>
+            <div class="col-sm-4 selling-points-tag  ">
+                <div class="tag-icon-left">
+                    <img class="tag-icon" src="../images/2.png" alt="">
+                </div>
+                <div class="tag-right">
+                    <div class="tag-title">
+                    Công nghệ mới - hiện đại
+                </div>
+                <div class="tag-content">
+                    Sử dụng 2 công nghệ hàng đầu: Công nghệ cáp kéo và Công nghệ thủy lực, ứng dụng hoàn hảo 
+                    cho từng công trình nhà ở.
+                </div>
+            </div>
+                
+            </div>
+            <div class="col-sm-4 selling-points-tag">
+                <div class="tag-icon-left">
+                    <img class="tag-icon" src="../images/3.png" alt="">
+                </div>
+                <div class="tag-right">
+                    <div class="tag-title">
+                        Dự toán công trình chặt chẽ
+                    </div>
+                    <div class="tag-content">
+                        Bảng dự toán công trình được đưa cho khách hàng với thông tin sát sao và chặt chẽ tới từng hạng mục…
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="selling-points-tags ">
+            <div class="col-sm-4 selling-points-tag  ">
+                <div class="tag-icon-left">
+                    <img class="tag-icon" src="../images/4.png" alt="">
+                </div>
+                <div class="tag-right">
+                    <div class="tag-title">
+                        Báo giá Thiết kế miễn phí
+                    </div>
+                    <div class="tag-content">
+                        Đội ngũ tư vấn, kỹ thuật viên của TNE luôn hỗ trợ nhiệt tình quý khách hàng trong từng khâu xây dựng 
+                        và lên ý tưởng phù hợp cho thiết kế
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-4 selling-points-tag">
+                <div class="tag-icon-left">
+                    <img class="tag-icon" src="../images/5.png" alt="">
+                </div>
+                <div class="tag-right">
+                    <div class="tag-title">
+                    Quy trình làm việc khoa học
+                    </div>
+                    <div class="tag-content">
+                        Trung thực, mạch lạc, rõ ràng là những phương châm thực hiện của chúng tôi để cho ra được sản phẩm
+                        hoàn hảo nhất
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-4 selling-points-tag">
+                <div class="tag-icon-left">
+                    <img class="tag-icon" src="../images/6.png" alt="">
+                </div>
+                <div class="tag-right">
+                    <div class="tag-title">
+                    Thiết kế sát với thực tế
+                </div>
+                <div class="tag-content">
+                    Tùy nhu cầu khách hàng, mỗi bản vẽ thiết kế đều mang lại sự thiết thực và hữu dụng nhất. 
+                </div></div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="news">
+    <div class="container">
+        <div class="container row">
+        <div class="heading-1 col-sm-6">
+            TIN TỨC
+        </div>
+        <div class="col-sm-6">
+            <button type="button" class="btn btn-news">Xem thêm  <i class="fas fa-long-arrow-alt-right"></i></button>
+        </div>
+    </div>
+    <div class="news-bottom  row">
+        <div class="col-sm-4">
+            <img class="news-img-left" src="../images/thang_may_o_trong_thang_bo.jpg" alt="">
+            <div class="news-item-date">2021-12-15 09:23:29</div>
+            <div class="news-title">Cách tiết kiệm diện tích thang máy</div>
+        </div>
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="news-item-right ">
+                    <img class="news-img-middle" src="../images/khung thép thang máy.jpg" alt="">
+                    <div class="news-content-item">
+                        <div class="news-item-date">2021-12-15 09:23:29</div>
+                        <div class="news-title">Hố tháng máy nên dựng bằng khung...</div>
+                    </div>
+                    
+                </div>
+                <div class="news-item-right ">
+                    <img class="news-img-middle" src="../images/bảng vẽ hố thang.jpg" alt="">
+                    <div class="news-content-item">
+                        <div class="news-item-date">2021-12-15 09:23:29</div>
+                        <div class="news-title">Tư vấn xây dựng hố thang máy</div>
+                    </div>
+                    
+                </div>
+                <div class="news-item-right ">
+                    <img class="news-img-middle" src="../images/dong-xu-thang-may.jpg" alt="">
+                    <div class="news-content-item">
+                        <div class="news-item-date">2021-12-15 09:23:29</div>
+                        <div class="news-title">Thử nghiệm độ em ái của thang máy...</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="news-item-right ">
+                    <img class="news-img-middle" src="../images/co-phong-may-va-khong-phong-may.jpg" alt="">
+                    <div class="news-content-item">
+                        <div class="news-item-date">2021-12-15 09:23:29</div>
+                        <div class="news-title">Thang máy có phòng máy và thang không...</div>
+                    </div>
+                    
+                </div>
+                <div class="news-item-right ">
+                    <img class="news-img-middle" src="../images/coc-tiep-dia-thang-may.jpg" alt="">
+                    <div class="news-content-item">
+                        <div class="news-item-date">2021-12-15 09:23:29</div>
+                        <div class="news-title">Tại sao cần làm tiếp đại cho hệ thống</div>
+                    </div>
+                    
+                </div>
+                <div class="news-item-right ">
+                    <img class="news-img-middle" src="../images/so-sanh-thang-may-cua-mo-tay-va-cua-mo-tu-dong.jpg" alt="">
+                    <div class="news-content-item">
+                        <div class="news-item-date">2021-12-15 09:23:29</div>
+                        <div class="news-title">3 loại thang gia đình tốt để chọn</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    
+</div>
+
+
+<div class="price">
+    <div class="price-left">
+        <img class="price_icon" src="../images/prices.png" alt="">
+        <div class="price-left-text">Bảng báo giá tham khảo</div>
+    </div>
+    <div class="price-right">
+        <div class="price-right-container"> 
+            <div class="price-text">
+                Tải bảng báo giá
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+
+
+<div class="footer">
+    <div class="container footer-top">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="footer-title">
+                
+                    CÔNG TY TNHH THIẾT BỊ TỰ ĐỘNG THỐNG NHẤT
+                
+                </div>
+                <hr>
+                <span class="item-footer-left"> Toà nhà Rosana, 60 Nguyễn Đình Chiểu, P. Đa Kao, Q. 1, Tp. HCM</span>
+                <span class="item-footer-left">B10/9/1 Võ Văn Vân, Ấp 2, Xã Vĩnh Lộc B, H. Bình Chánh, Tp. HCM</span>
+                <span class="item-footer-left">Hotline: (+84) 903 232 417 - (+84) 222 119 85</span>
+                <span class="item-footer-left">elevator@tdthongnhat.com</span>
+                <span class="item-footer-left">tdthongnhat.com</span>
+
+
+
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-2 pl-80">
+                        <div class="footer-title ">
+                            Sản phẩm
+                        </div>
+                        <hr>
+                        <div class="item-footer product-footer">Thang máy tải khác</div>
+                        <div class="item-footer product-footer">Thang máy tải hàng</div>
+                        <div class="item-footer product-footer">Thang máy bệnh viện</div>
+                        <div class="item-footer product-footer">Thang máy tải thực phẩm</div>
+                        <div class="item-footer product-footer">Thang máy gia đình</div>
+                    </div>
+                    <div class="col-sm-2 pl-80">
+                        <div class="footer-title ">
+                            Dịch vụ
+                        </div>
+                        <hr>
+                        <div class="item-footer service-footer">Dịch vụ bảo trì</div>
+                        <div class="item-footer service-footer">Dịch vụ vệ sinh thang máy</div>
+                        <div class="item-footer service-footer">Dịch vụ nâng cấp thang máy</div>
+                        <div class="item-footer service-footer">Dịch vụ sửa chữa thang máy</div>
+                    </div>
+                    <div class="col-sm-2 pl-80">
+                        <div class="footer-title connect">
+                            Kết nối
+                            <hr>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-youtube"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6 company" >
+                © TD ThongNhat All Rights Reserved 2021. Developed by ANFLASH TECHNOLOGY .
+            </div>
+            <div class="col-sm-6 nav-footer">
+                Trang chủ | Giới thiệu | Sản phẩm | Dịch vụ | Dự án | Thi công | Tin tức | Bảng báo giá | Liên hệ|
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-1.11.0.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+<script src="../js/app.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
